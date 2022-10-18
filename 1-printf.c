@@ -4,7 +4,7 @@
  * _printf - prints and input into the stdo
  * @format: the format string
  * Return: num of bytes printed
- */
+*/
 
 int _printf(const char *format, ...)
 {
