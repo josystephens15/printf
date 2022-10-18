@@ -7,7 +7,6 @@
 */
 
 int (*get_specifier(char *s))(va_list ap, params_t *params)
-
 {
 	specifier_t specifiers[] = {
 
@@ -64,10 +63,10 @@ int get_print_func(char *s, va_list ap, params_t *params)
  * get_flag - finds the flag functions
  * @s: the format string
  * @params: the parameters struct
- * Return: if flag was valid*/
+ * Return: if flag was valid
+ */
 
 int get_flag(char *s, params_t *params)
-
 {
 	int i = 0;
 
