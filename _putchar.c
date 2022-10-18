@@ -5,7 +5,7 @@
  * @str: the string to print
  *
  * Return:( str-a)
- */
+*/
 int _puts(char *str)
 {
 	char *a = str;/*declaration of variables*/
@@ -21,7 +21,7 @@ int _puts(char *str)
  *
  * Return: 1.
  * On error, -1 is returned, and error is set.
- */
+*/
 int _putchar(int c)
 {
 	static int i;
