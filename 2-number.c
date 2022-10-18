@@ -27,7 +27,7 @@ int print_from_to(char *start, char *stop, char *except)
  * @params: the parameters struct
  *
  * Return: number bytes printed
- */
+*/
 int print_rev(va_list ap, params_t *params)
 {
 	int len, sum = 0;
@@ -51,7 +51,7 @@ int print_rev(va_list ap, params_t *params)
  * @params: the parameters struct
  *
  * Return: number bytes printed
- */
+*/
 int print_rot13(va_list ap, params_t *params)
 {
 	int i, index;
